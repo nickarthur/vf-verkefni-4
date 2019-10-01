@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5A2B08A234394A80001EC28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2B089234394A80001EC28 /* AppDelegate.swift */; };
+		D5A2B08C234394A80001EC28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2B08B234394A80001EC28 /* ContentView.swift */; };
+		D5A2B08E234394A80001EC28 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D5A2B08D234394A80001EC28 /* Experience.rcproject */; };
+		D5A2B090234394A90001EC28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A2B08F234394A90001EC28 /* Assets.xcassets */; };
+		D5A2B093234394A90001EC28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A2B092234394A90001EC28 /* Preview Assets.xcassets */; };
+		D5A2B096234394A90001EC28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A2B094234394A90001EC28 /* LaunchScreen.storyboard */; };
+		D5A2B0A1234394A90001EC28 /* Verkefni_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2B0A0234394A90001EC28 /* Verkefni_4Tests.swift */; };
+		D5A2B0AC234394A90001EC28 /* Verkefni_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2B0AB234394A90001EC28 /* Verkefni_4UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5A2B09D234394A90001EC28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5A2B07E234394A80001EC28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5A2B085234394A80001EC28;
+			remoteInfo = "Verkefni 4";
+		};
+		D5A2B0A8234394A90001EC28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5A2B07E234394A80001EC28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5A2B085234394A80001EC28;
+			remoteInfo = "Verkefni 4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5A2B086234394A80001EC28 /* Verkefni 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Verkefni 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A2B089234394A80001EC28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5A2B08B234394A80001EC28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5A2B08D234394A80001EC28 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		D5A2B08F234394A90001EC28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5A2B092234394A90001EC28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5A2B095234394A90001EC28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5A2B097234394A90001EC28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5A2B09C234394A90001EC28 /* Verkefni 4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Verkefni 4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A2B0A0234394A90001EC28 /* Verkefni_4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verkefni_4Tests.swift; sourceTree = "<group>"; };
+		D5A2B0A2234394A90001EC28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5A2B0A7234394A90001EC28 /* Verkefni 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Verkefni 4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A2B0AB234394A90001EC28 /* Verkefni_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verkefni_4UITests.swift; sourceTree = "<group>"; };
+		D5A2B0AD234394A90001EC28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5A2B083234394A80001EC28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A2B099234394A90001EC28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A2B0A4234394A90001EC28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5A2B07D234394A80001EC28 = {
+			isa = PBXGroup;
+			children = (
+				D5A2B088234394A80001EC28 /* Verkefni 4 */,
+				D5A2B09F234394A90001EC28 /* Verkefni 4Tests */,
+				D5A2B0AA234394A90001EC28 /* Verkefni 4UITests */,
+				D5A2B087234394A80001EC28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5A2B087234394A80001EC28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5A2B086234394A80001EC28 /* Verkefni 4.app */,
+				D5A2B09C234394A90001EC28 /* Verkefni 4Tests.xctest */,
+				D5A2B0A7234394A90001EC28 /* Verkefni 4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5A2B088234394A80001EC28 /* Verkefni 4 */ = {
+			isa = PBXGroup;
+			children = (
+				D5A2B089234394A80001EC28 /* AppDelegate.swift */,
+				D5A2B08B234394A80001EC28 /* ContentView.swift */,
+				D5A2B08D234394A80001EC28 /* Experience.rcproject */,
+				D5A2B08F234394A90001EC28 /* Assets.xcassets */,
+				D5A2B094234394A90001EC28 /* LaunchScreen.storyboard */,
+				D5A2B097234394A90001EC28 /* Info.plist */,
+				D5A2B091234394A90001EC28 /* Preview Content */,
+			);
+			path = "Verkefni 4";
+			sourceTree = "<group>";
+		};
+		D5A2B091234394A90001EC28 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5A2B092234394A90001EC28 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5A2B09F234394A90001EC28 /* Verkefni 4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D5A2B0A0234394A90001EC28 /* Verkefni_4Tests.swift */,
+				D5A2B0A2234394A90001EC28 /* Info.plist */,
+			);
+			path = "Verkefni 4Tests";
+			sourceTree = "<group>";
+		};
+		D5A2B0AA234394A90001EC28 /* Verkefni 4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5A2B0AB234394A90001EC28 /* Verkefni_4UITests.swift */,
+				D5A2B0AD234394A90001EC28 /* Info.plist */,
+			);
+			path = "Verkefni 4UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5A2B085234394A80001EC28 /* Verkefni 4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A2B0B0234394A90001EC28 /* Build configuration list for PBXNativeTarget "Verkefni 4" */;
+			buildPhases = (
+				D5A2B082234394A80001EC28 /* Sources */,
+				D5A2B083234394A80001EC28 /* Frameworks */,
+				D5A2B084234394A80001EC28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Verkefni 4";
+			productName = "Verkefni 4";
+			productReference = D5A2B086234394A80001EC28 /* Verkefni 4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5A2B09B234394A90001EC28 /* Verkefni 4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A2B0B3234394A90001EC28 /* Build configuration list for PBXNativeTarget "Verkefni 4Tests" */;
+			buildPhases = (
+				D5A2B098234394A90001EC28 /* Sources */,
+				D5A2B099234394A90001EC28 /* Frameworks */,
+				D5A2B09A234394A90001EC28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5A2B09E234394A90001EC28 /* PBXTargetDependency */,
+			);
+			name = "Verkefni 4Tests";
+			productName = "Verkefni 4Tests";
+			productReference = D5A2B09C234394A90001EC28 /* Verkefni 4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5A2B0A6234394A90001EC28 /* Verkefni 4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A2B0B6234394A90001EC28 /* Build configuration list for PBXNativeTarget "Verkefni 4UITests" */;
+			buildPhases = (
+				D5A2B0A3234394A90001EC28 /* Sources */,
+				D5A2B0A4234394A90001EC28 /* Frameworks */,
+				D5A2B0A5234394A90001EC28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5A2B0A9234394A90001EC28 /* PBXTargetDependency */,
+			);
+			name = "Verkefni 4UITests";
+			productName = "Verkefni 4UITests";
+			productReference = D5A2B0A7234394A90001EC28 /* Verkefni 4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5A2B07E234394A80001EC28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Reynir Aron";
+				TargetAttributes = {
+					D5A2B085234394A80001EC28 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					D5A2B09B234394A90001EC28 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = D5A2B085234394A80001EC28;
+					};
+					D5A2B0A6234394A90001EC28 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = D5A2B085234394A80001EC28;
+					};
+				};
+			};
+			buildConfigurationList = D5A2B081234394A80001EC28 /* Build configuration list for PBXProject "Verkefni 4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5A2B07D234394A80001EC28;
+			productRefGroup = D5A2B087234394A80001EC28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5A2B085234394A80001EC28 /* Verkefni 4 */,
+				D5A2B09B234394A90001EC28 /* Verkefni 4Tests */,
+				D5A2B0A6234394A90001EC28 /* Verkefni 4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5A2B084234394A80001EC28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A2B096234394A90001EC28 /* LaunchScreen.storyboard in Resources */,
+				D5A2B093234394A90001EC28 /* Preview Assets.xcassets in Resources */,
+				D5A2B090234394A90001EC28 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A2B09A234394A90001EC28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A2B0A5234394A90001EC28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5A2B082234394A80001EC28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A2B08C234394A80001EC28 /* ContentView.swift in Sources */,
+				D5A2B08A234394A80001EC28 /* AppDelegate.swift in Sources */,
+				D5A2B08E234394A80001EC28 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A2B098234394A90001EC28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A2B0A1234394A90001EC28 /* Verkefni_4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A2B0A3234394A90001EC28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A2B0AC234394A90001EC28 /* Verkefni_4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5A2B09E234394A90001EC28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5A2B085234394A80001EC28 /* Verkefni 4 */;
+			targetProxy = D5A2B09D234394A90001EC28 /* PBXContainerItemProxy */;
+		};
+		D5A2B0A9234394A90001EC28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5A2B085234394A80001EC28 /* Verkefni 4 */;
+			targetProxy = D5A2B0A8234394A90001EC28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5A2B094234394A90001EC28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5A2B095234394A90001EC28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5A2B0AE234394A90001EC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5A2B0AF234394A90001EC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5A2B0B1234394A90001EC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Verkefni 4/Preview Content\"";
+				DEVELOPMENT_TEAM = M3958KVT9F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Verkefni 4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reyniraron.Verkefni-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5A2B0B2234394A90001EC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Verkefni 4/Preview Content\"";
+				DEVELOPMENT_TEAM = M3958KVT9F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Verkefni 4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reyniraron.Verkefni-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5A2B0B4234394A90001EC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3958KVT9F;
+				INFOPLIST_FILE = "Verkefni 4Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reyniraron.Verkefni-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Verkefni 4.app/Verkefni 4";
+			};
+			name = Debug;
+		};
+		D5A2B0B5234394A90001EC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3958KVT9F;
+				INFOPLIST_FILE = "Verkefni 4Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reyniraron.Verkefni-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Verkefni 4.app/Verkefni 4";
+			};
+			name = Release;
+		};
+		D5A2B0B7234394A90001EC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3958KVT9F;
+				INFOPLIST_FILE = "Verkefni 4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reyniraron.Verkefni-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Verkefni 4";
+			};
+			name = Debug;
+		};
+		D5A2B0B8234394A90001EC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3958KVT9F;
+				INFOPLIST_FILE = "Verkefni 4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reyniraron.Verkefni-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Verkefni 4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5A2B081234394A80001EC28 /* Build configuration list for PBXProject "Verkefni 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A2B0AE234394A90001EC28 /* Debug */,
+				D5A2B0AF234394A90001EC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A2B0B0234394A90001EC28 /* Build configuration list for PBXNativeTarget "Verkefni 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A2B0B1234394A90001EC28 /* Debug */,
+				D5A2B0B2234394A90001EC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A2B0B3234394A90001EC28 /* Build configuration list for PBXNativeTarget "Verkefni 4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A2B0B4234394A90001EC28 /* Debug */,
+				D5A2B0B5234394A90001EC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A2B0B6234394A90001EC28 /* Build configuration list for PBXNativeTarget "Verkefni 4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A2B0B7234394A90001EC28 /* Debug */,
+				D5A2B0B8234394A90001EC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5A2B07E234394A80001EC28 /* Project object */;
+}
