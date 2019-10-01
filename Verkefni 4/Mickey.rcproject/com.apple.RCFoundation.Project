@@ -1,0 +1,511 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "hasGroundPlane" : true,
+              "identifier" : "000AC840-85C8-4D0E-9022-C1DE72CA4376",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "0ABD8D3E-0F9C-459A-880A-4A613505116D" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "standard"
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "sphere"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "9AFB76C0-B924-46AF-BFF3-1B45AC236B16"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        5,
+                        0,
+                        -0.0098873237147927284,
+                        0.25000002980232239,
+                        -0.19228866696357727,
+                        1
+                      ]
+                    }
+                  },
+                  "0C44F39E-91F7-42F1-8776-B4C117D8082D" : null,
+                  "1FD9B5CC-53A0-4298-93F4-8D6F078613CC" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "diameter",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.10000000000000001
+                          }
+                        ],
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "standard"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              0.23875176906585693,
+                              0.23875176906585693,
+                              0.23875176906585693,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "sphere"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "6CF33A32-3A10-4D44-8665-85E89D9FC703"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3,
+                        0,
+                        0.23979435861110687,
+                        0.4363686740398407,
+                        -0.19879791140556335,
+                        1
+                      ]
+                    }
+                  },
+                  "8CCFDCB7-DFD3-4833-8901-47C458803EB8" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Checker Black Piece"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "iconicItem" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "58931D00-0777-4113-9FBC-44D424D03F4F"
+                                }
+                              ]
+                            ]
+                          }
+                        },
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "3CEA867F-A85E-420A-B264-FCBDFE5E94F5"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CheckerBlackPiece.1935e959-90eb-4d1a-a3fa-b36f40ac8655",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "4D995909-271A-4B1A-8ED9-101B9F4038DC"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        2.75,
+                        7.8159721262401755e-14,
+                        4.6586812098986519e-21,
+                        0,
+                        -2.3526288411199907e-19,
+                        8.031708603084553e-06,
+                        2.7499940395355225,
+                        0,
+                        7.8159551855812304e-14,
+                        -2.7499940395355225,
+                        8.031708603084553e-06,
+                        0,
+                        -0.0098876422271132469,
+                        0.25145682692527771,
+                        0.057391121983528137,
+                        1
+                      ]
+                    }
+                  },
+                  "87484F93-622C-4D58-8538-FA1BEA74E99A" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Checker Black Piece"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "iconicItem" : {
+                          "overrides" : {
+                            "factory" : null
+                          }
+                        },
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "B8D32549-F247-41D9-8496-A855353DC4CC"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CheckerBlackPiece.1935e959-90eb-4d1a-a3fa-b36f40ac8655",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "B35506BA-22EA-4E49-A556-77D0A2D933C1"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        2.9047384262084961,
+                        -4.4703487134256648e-08,
+                        -0.74999725818634033,
+                        0,
+                        0.72270488739013672,
+                        0.80192893743515015,
+                        2.7990350723266602,
+                        0,
+                        0.20048147439956665,
+                        -2.8908302783966064,
+                        0.77646458148956299,
+                        0,
+                        0.064195498824119568,
+                        0.31988540291786194,
+                        0.035682752728462219,
+                        1
+                      ]
+                    }
+                  },
+                  "3545679A-F62B-4AE8-8A61-178FA3F9B00E" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Checker Black Piece"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "iconicItem" : {
+                          "overrides" : {
+                            "factory" : null
+                          }
+                        },
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "7FB84E4A-DB5E-47C6-880D-66126C991522"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CheckerBlackPiece.1935e959-90eb-4d1a-a3fa-b36f40ac8655",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "98DF86F7-ACBE-4543-83D6-5A29C006DD3F"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        2.9047365188598633,
+                        8.9406945846803865e-08,
+                        0.75000089406967163,
+                        0,
+                        -0.72270774841308594,
+                        0.80192786455154419,
+                        2.7990303039550781,
+                        0,
+                        -0.20048181712627411,
+                        -2.8908216953277588,
+                        0.7764621376991272,
+                        0,
+                        -0.083546794950962067,
+                        0.31991451978683472,
+                        0.035792406648397446,
+                        1
+                      ]
+                    }
+                  },
+                  "B45D36FC-60D5-45B8-9A66-96EE4E8FF66E" : null,
+                  "C2FEC768-F780-4D7C-9302-7312BA3FA2C6" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "standard"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              0.23875176906585693,
+                              0.23875176906585693,
+                              0.23875176906585693,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "sphere"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "AD1B3421-4F6E-4558-9071-A576D8914DB3"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3,
+                        0,
+                        -0.25956636667251587,
+                        0.43636870384216309,
+                        -0.19879783689975739,
+                        1
+                      ]
+                    }
+                  },
+                  "E7F5B665-D462-4CE7-AEDD-6FAE54DE028F" : null,
+                  "Plate" : null,
+                  "Shelf" : null
+                },
+                "factory" : null
+              },
+              "title" : "Scene",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.99636435508728027,
+                  1.6880219888548709e-08,
+                  0.085193544626235962,
+                  0,
+                  0.01355407852679491,
+                  0.98726320266723633,
+                  -0.15851691365242004,
+                  0,
+                  -0.084108538925647736,
+                  0.15909543633460999,
+                  0.98367387056350708,
+                  0,
+                  -0.057908400893211365,
+                  0.63790732622146606,
+                  2.0722486972808838,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 4
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}

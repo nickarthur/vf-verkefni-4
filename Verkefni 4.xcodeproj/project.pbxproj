@@ -14,7 +14,7 @@
 		D5A2B096234394A90001EC28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A2B094234394A90001EC28 /* LaunchScreen.storyboard */; };
 		D5A2B0A1234394A90001EC28 /* Verkefni_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2B0A0234394A90001EC28 /* Verkefni_4Tests.swift */; };
 		D5A2B0AC234394A90001EC28 /* Verkefni_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2B0AB234394A90001EC28 /* Verkefni_4UITests.swift */; };
-		D5A2B0BA234395B90001EC28 /* Mickey.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D5A2B0B9234395B90001EC28 /* Mickey.rcproject */; };
+		D5A8A25423439F330096F216 /* Mickey.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D5A8A25323439F330096F216 /* Mickey.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		D5A2B0A7234394A90001EC28 /* Verkefni 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Verkefni 4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A2B0AB234394A90001EC28 /* Verkefni_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verkefni_4UITests.swift; sourceTree = "<group>"; };
 		D5A2B0AD234394A90001EC28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5A2B0B9234395B90001EC28 /* Mickey.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = Mickey.rcproject; path = "../../../../../../Library/Mobile Documents/com~apple~CloudDocs/Reality Composer/Mickey.rcproject"; sourceTree = "<group>"; };
+		D5A8A25323439F330096F216 /* Mickey.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Mickey.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 		D5A2B088234394A80001EC28 /* Verkefni 4 */ = {
 			isa = PBXGroup;
 			children = (
-				D5A2B0B9234395B90001EC28 /* Mickey.rcproject */,
+				D5A8A25323439F330096F216 /* Mickey.rcproject */,
 				D5A2B089234394A80001EC28 /* AppDelegate.swift */,
 				D5A2B08B234394A80001EC28 /* ContentView.swift */,
 				D5A2B08F234394A90001EC28 /* Assets.xcassets */,
@@ -267,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5A2B0BA234395B90001EC28 /* Mickey.rcproject in Sources */,
+				D5A8A25423439F330096F216 /* Mickey.rcproject in Sources */,
 				D5A2B08C234394A80001EC28 /* ContentView.swift in Sources */,
 				D5A2B08A234394A80001EC28 /* AppDelegate.swift in Sources */,
 			);
