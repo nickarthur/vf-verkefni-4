@@ -21,10 +21,10 @@ struct ARViewContainer: UIViewRepresentable {
         
         let arView = ARView(frame: .zero)
         
-        // Load Mickey anchor scene
+        // Hlaða inn Mickey anchor senu (lógó)
         let logo = try! Mickey.loadScene()
         
-        // Add the Mickey anchor to the scene
+        // Bæta Mickey anchor við arView senuna
         arView.scene.anchors.append(logo)
         
         return arView
