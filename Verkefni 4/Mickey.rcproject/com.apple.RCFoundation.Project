@@ -10,7 +10,82 @@
                 "name" : "surface"
               },
               "behaviors" : [
-
+                {
+                  "__content" : [
+                    {
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "animationStyle" : "basic",
+                                          "duration" : 1.1699999570846558,
+                                          "emphasisAnimationType" : "pulse",
+                                          "iterations" : 1,
+                                          "target" : [
+                                            "AD1B3421-4F6E-4558-9071-A576D8914DB3",
+                                            "6CF33A32-3A10-4D44-8665-85E89D9FC703"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "emphasis"
+                                        }
+                                      },
+                                      "identifier" : "64215CC2-301F-4C56-AD56-0975668B54F3",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "CFF1F778-296E-4987-A2D2-7D52D3C7798C",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.364705890417099,
+                        0.74117648601531982,
+                        0.69019609689712524,
+                        1
+                      ],
+                      "identifier" : "1A9D0E18-0737-4CF6-AF6F-1BABAFADD0A1",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Grow Ears",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "target" : [
+                                    "9AFB76C0-B924-46AF-BFF3-1B45AC236B16",
+                                    "AD1B3421-4F6E-4558-9071-A576D8914DB3",
+                                    "6CF33A32-3A10-4D44-8665-85E89D9FC703"
+                                  ]
+                                },
+                                "name" : "tapTarget"
+                              },
+                              "identifier" : "64688757-5F71-4B4A-B52A-1DA3973B8E5D",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 2
+                }
               ],
               "gravity" : [
                 0,
@@ -50,6 +125,20 @@
                           {
                             "typeName" : "UUID",
                             "value" : "9AFB76C0-B924-46AF-BFF3-1B45AC236B16"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
                           }
                         ]
                       ]
@@ -123,6 +212,20 @@
                           {
                             "typeName" : "UUID",
                             "value" : "6CF33A32-3A10-4D44-8665-85E89D9FC703"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
                           }
                         ]
                       ]
@@ -207,6 +310,20 @@
                             "typeName" : "UUID",
                             "value" : "4D995909-271A-4B1A-8ED9-101B9F4038DC"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
@@ -280,6 +397,20 @@
                           {
                             "typeName" : "UUID",
                             "value" : "B35506BA-22EA-4E49-A556-77D0A2D933C1"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
                           }
                         ]
                       ]
@@ -355,6 +486,20 @@
                             "typeName" : "UUID",
                             "value" : "98DF86F7-ACBE-4543-83D6-5A29C006DD3F"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
@@ -421,6 +566,20 @@
                             "typeName" : "UUID",
                             "value" : "AD1B3421-4F6E-4558-9071-A576D8914DB3"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
@@ -454,21 +613,21 @@
               "title" : "Scene",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.99636435508728027,
-                  1.6880219888548709e-08,
-                  0.085193544626235962,
+                  0.99951320886611938,
+                  1.5366824257512235e-08,
+                  -0.031197834759950638,
                   0,
-                  0.01355407852679491,
-                  0.98726320266723633,
-                  -0.15851691365242004,
+                  -0.0070804036222398281,
+                  0.97390466928482056,
+                  -0.226846843957901,
                   0,
-                  -0.084108538925647736,
-                  0.15909543633460999,
-                  0.98367387056350708,
+                  0.030383719131350517,
+                  0.22695745527744293,
+                  0.9734305739402771,
                   0,
-                  -0.057908400893211365,
-                  0.63790732622146606,
-                  2.0722486972808838,
+                  0.018123537302017212,
+                  0.58027738332748413,
+                  2.0694417953491211,
                   1
                 ],
                 "sceneTransform" : [
